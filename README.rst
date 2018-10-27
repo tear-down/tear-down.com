@@ -3,7 +3,12 @@ tear-down.com
 
 The official website of tear•down project.
 
-→ http://tear-down.com
+→ https://tear-down.com
+
+Legal Notice
+============
+
+All trademarks and registered trademarks are the property of their respective owners.
 
 License
 =======
