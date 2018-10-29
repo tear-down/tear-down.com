@@ -9,7 +9,7 @@ cd "$(dirname "$(readlink -f "${0}")")"
 PNGLIST=''
 for SIZE in 16 32 48
 do
-  inkscape -z logo/green-dot.svg --export-png=favicon${SIZE}.png --export-width=$SIZE
+  inkscape -z ../img/logo/green-dot.svg --export-png=favicon${SIZE}.png --export-width=$SIZE
   PNGLIST="$PNGLIST favicon${SIZE}.png"
 done
 
