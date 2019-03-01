@@ -3,11 +3,6 @@
 set -e
 cd "$(dirname "$(readlink -f "${0}")")/.."
 
-mkdir -p content
-cd content
-rm -rf *
-cd ..
-
 mkdir -p tmp
 cd tmp
 
@@ -22,13 +17,8 @@ mkdir -p ../docs/img/$SUBTEAR
 rm -rfv ../docs/img/$SUBTEAR/*
 cp -rfv $SUBTEAR/img/* ../docs/img/$SUBTEAR/
 
-mkdir -p ../content/pages/$SUBTEAR
-rm -rfv ../content/pages/$SUBTEAR/*
-cp -rfv $SUBTEAR/pages/* ../content/pages/$SUBTEAR/
+mkdir -p ../src/pages/$SUBTEAR
+rm -rfv ../src/pages/$SUBTEAR/*
+cp -rfv $SUBTEAR/pages/* ../src/pages/$SUBTEAR/
 
 cd ..
-
-pip3 install --upgrade pelican --user
-pelican content
-
-

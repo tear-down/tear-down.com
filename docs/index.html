@@ -20,8 +20,53 @@
   <meta property="og:title" content="tear&bull;down | Reveal Hidden." />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="tear&bull;down" />
+  <script src="/js/jquery-3.3.1.slim.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <link rel="stylesheet" href="/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/css/main.css" />
+  <script src="/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    function duckSearch() {
+        var searchField = document.getElementById("searchField");
+        if (searchField && searchField.value) {
+            var query = escape(searchField.value + " site:tear-down.com");
+            window.location.href = "https://duckduckgo.com/?q=" + query;
+        }
+    }
+  </script>
 </head>
 
 <body leftmargin="0" topmargin="0" marginheight="0" marginwidth="0" bgcolor="#FFFFFFFF">
-<table height="100%" width="100%" align="center" border="0"><tbody><tr><td align="center"><center><img src="/img/tear-down-logo-curves.svg" width="200" alt="tear•down"></center></td></tr></tbody></table>
+<div class="container">
+  <header class="header py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+        <a class="btn btn-outline-success" href="/donate/">Donate</a>
+      </div>
+      <div class="col-4 text-center"><a class="navbar-brand" href="/"><img src="/img/tear-down-logo-curves.svg" height="30" alt="tear-down" /></a></div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        <form class="form-inline my-2 my-lg-0" onsubmit="duckSearch()" action="javascript:void(0)">
+          <input class="form-control mr-sm-2" type="search" id="searchField" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <div class="content">
+<div class="jumbotron">
+  <h1>About</h1>
+  <p>We at <a href="https://levidrone.com" target="_blank">LeviDrone</a> love to explore the internals of electronics devices.</p>
+  <h2>We aim to:</h2>
+  <p><span class="badge badge-pill badge-success">1</span> <strong>Investigate and promote state of the art schematic solutions</strong></p>
+  <p><span class="badge badge-pill badge-success">2</span> <strong>Find new applications for useful things</strong></p>
+  <p><span class="badge badge-pill badge-success">3</span> <strong>Fill the lack of information about some undocumented components</strong></p>
+  <h2>We don't aim to:</h2>
+  <p><span class="badge badge-pill badge-danger">1</span> <strong>Violate patents and intellectual property of third parties</strong></p>
+  <p><span class="badge badge-pill badge-danger">2</span> <strong>Make you to break warranty terms and conditions</strong></p>
+  <p><span class="badge badge-pill badge-danger">3</span> <strong>Do any harm to anyone</strong></p>
+  <h3>All content provided is for informational purposes only.</h3>
+</div>
+</div>
+</div>
 </body></html>
