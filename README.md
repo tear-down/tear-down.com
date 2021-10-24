@@ -1,5 +1,7 @@
 # tear-down.com
 
+[![Publish Status](https://github.com/tear-down/tear-down.com/workflows/Publish/badge.svg)](https://github.com/tear-down/tear-down.com/actions/workflows/publish.yml?query=branch%3Amaster)
+
 The official website of **tear•down** project.
 
 🌐 https://tear-down.com
