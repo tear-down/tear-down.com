@@ -1,5 +1,5 @@
 ---
-title: Reveal Hidden.
+title: Reveal Hidden
 sidebar_position: 1
 sidebar_label: Home
 slug: /
