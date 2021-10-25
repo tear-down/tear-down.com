@@ -25,7 +25,7 @@ const config = {
           path: './docs',
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/tear-down/tear-down.com/edit/main/website/',
+          editUrl: 'https://github.com/tear-down/tear-down.com/edit/master/',
           showLastUpdateTime: true,
         },
         blog: false,
