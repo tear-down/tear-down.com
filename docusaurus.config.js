@@ -53,7 +53,7 @@ const config = {
             items: [
               {
                 type: 'doc',
-                docId: 'dji',
+                docId: 'dji/index',
                 label: 'DJI',
               },
             ],
