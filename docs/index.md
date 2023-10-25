@@ -1,6 +1,6 @@
 ---
 title: Reveal Hidden
-sidebar_position: 1
+sidebar_position: 0
 sidebar_label: Home
 slug: /
 ---
