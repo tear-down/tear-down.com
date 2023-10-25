@@ -47,6 +47,18 @@ const config = {
         },
         items: [
           {
+            type: 'dropdown',
+            label: 'Brands',
+            position: 'left',
+            items: [
+              {
+                type: 'doc',
+                docId: 'dji/index',
+                label: 'DJI',
+              },
+            ],
+          },
+          {
             href: 'https://github.com/tear-down/tear-down.com',
             label: 'GitHub',
             position: 'right',
