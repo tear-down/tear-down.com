@@ -16,9 +16,9 @@
 
 Flyers:
 
-- [Sony IMX183](/pdf/IMX183.pdf)
-- [Sony IMX269](/pdf/IMX269.pdf)
-- [Sony IMX271](/pdf/IMX271.pdf)
+- [Sony IMX183](/pdf/sony/IMX183.pdf)
+- [Sony IMX269](/pdf/sony/IMX269.pdf)
+- [Sony IMX271](/pdf/sony/IMX271.pdf)
 
 ## Cables
 
